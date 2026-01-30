@@ -1,0 +1,143 @@
+.recent-analyses {
+  background: white;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  height: fit-content;
+  max-height: calc(100vh - 200px);
+  overflow-y: auto;
+}
+
+.analyses-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.analyses-header h3 {
+  margin: 0;
+  color: #1a1a1a;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+}
+
+.clear-button {
+  background: none;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.clear-button:hover {
+  background-color: #f0f0f0;
+}
+
+.empty-analyses {
+  text-align: center;
+  padding: 40px 20px;
+  color: #95a5a6;
+}
+
+.empty-analyses .empty-icon {
+  font-size: 48px;
+  margin-bottom: 12px;
+}
+
+.empty-analyses p {
+  margin: 8px 0;
+  font-size: 14px;
+}
+
+.empty-analyses .empty-hint {
+  font-size: 12px;
+  color: #bdc3c7;
+}
+
+.analyses-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.analysis-item {
+  background: #f8f9fa;
+  padding: 16px;
+  border-radius: 8px;
+  border: 2px solid #e0e0e0;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.analysis-item:hover {
+  border-color: #10b981;
+  transform: translateX(4px);
+  box-shadow: 0 2px 8px rgba(16, 185, 129, 0.2);
+}
+
+.analysis-item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.analysis-product {
+  font-weight: 600;
+  color: #1a1a1a;
+  font-size: 16px;
+}
+
+.analysis-confidence {
+  background: linear-gradient(135deg, #10b981 0%, #1e40af 100%);
+  color: white;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.analysis-details {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  font-size: 12px;
+  color: #666;
+}
+
+.analysis-category {
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+}
+
+.analysis-date {
+  color: #95a5a6;
+}
+
+.analysis-preview {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 12px;
+  border-top: 1px solid #e0e0e0;
+}
+
+.analysis-action {
+  font-size: 13px;
+  font-weight: 600;
+  color: #1e40af;
+}
+
+.analysis-demand {
+  font-size: 13px;
+  color: #10b981;
+  font-weight: 600;
+}
+
